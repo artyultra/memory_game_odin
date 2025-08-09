@@ -1,6 +1,7 @@
 // src/components/layouts/Navbar.jsx
 
 import "./Navbar.css";
+import pokemonLogo from "../../../assets/pokemon_logo.svg";
 
 function NavBar({ score, highScore }) {
   return (
@@ -8,7 +9,7 @@ function NavBar({ score, highScore }) {
       <div className="nav-left">
         <img
           className="nav-logo"
-          src="/assets/pokemon_logo.svg"
+          src={pokemonLogo}
           alt="Pokemon logo"
         />
         <h1 className="nav-title">CAN YOU GUESS THEM ALL?</h1>
