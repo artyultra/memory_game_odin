@@ -26,7 +26,7 @@ export default class Game {
       ...gameState,
       guessedPokemon: [...gameState.guessedPokemon, id],
       score: gameState.score + 1,
-      // pokemon: Game.shufflePokemon(gameState.pokemon),
+      pokemon: Game.shufflePokemon(gameState.pokemon),
     };
   }
 

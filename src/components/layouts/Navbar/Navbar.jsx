@@ -8,7 +8,7 @@ function NavBar({ score, highScore }) {
       <div className="nav-left">
         <img
           className="nav-logo"
-          src="/src/assets/pokemon_logo.svg"
+          src="/assets/pokemon_logo.svg"
           alt="Pokemon logo"
         />
         <h1 className="nav-title">CAN YOU GUESS THEM ALL?</h1>
